@@ -4,11 +4,11 @@ const main = async () => {
     const Transactions = await hre.ethers.getContractFactory("Transactions");
 
     //one specific instance of that contract
-    const transactions = await Transactions.deploy();
+    const transactionsContract = await Transactions.deploy();
 
-    await transactions.deployed();
+    await transactionsContract.waitForDeployment();
 
-    console.log("Transactions address: ", transactions.address);
+    console.log("Transactions address: ", transactionsContract.getAddress());
 }
 
 const runMain = async () => {
