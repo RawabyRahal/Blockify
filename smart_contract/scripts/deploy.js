@@ -8,7 +8,7 @@ const main = async () => {
 
     await transactionsContract.waitForDeployment();
 
-    console.log("Transactions address: ", transactionsContract.getAddress());
+    console.log("Transactions address: ", await transactionsContract.getAddress());
 }
 
 const runMain = async () => {
