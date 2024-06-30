@@ -4,6 +4,7 @@ import { SiEthereum } from "react-icons/si";
 import { BsInfoCircle } from "react-icons/bs";
 
 import { TransactionContext } from "../context/TransactionContext";
+import { shortenAddress } from "../utils/shortenAddress";
 // import { shortenAddress } from "../utils/shortenAddress";
 import { Loader } from "./";
 const companyCommonStyles =
@@ -27,6 +28,7 @@ export default function Welcome() {
     formData,
     handleChange,
     sendTransaction,
+    isLoading,
   } = useContext(TransactionContext);
   // console.log(connectWallet);
 
@@ -96,8 +98,7 @@ export default function Welcome() {
               </div>
               <div>
                 <p className="text-white font-light text-sm">
-                  Address
-                  {/* {shortenAddress(currentAccount)} */}
+                  {shortenAddress(currentAccount)}
                 </p>
                 <p className="text-white font-semibold text-lg mt-1">
                   Ethereum
@@ -133,7 +134,7 @@ export default function Welcome() {
             />
 
             <div className="h-[1px] w-full bg-gray-400 my-2" />
-            {false ? (
+            {isLoading ? (
               <Loader />
             ) : (
               <button
