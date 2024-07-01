@@ -2,6 +2,7 @@ import { useState } from "react";
 import { HiMenuAlt4 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
 import logo from "../../images/logo.png";
+import { NAVBAR_LINKS } from "../utils/constants";
 
 const NavBarItem = ({ title, classprops }) => (
   <li className={`mx-4 cursor-pointer ${classprops}`}>{title}</li>
@@ -49,7 +50,7 @@ export default function Navbar() {
             <li className="text-xl w-full my-2">
               <AiOutlineClose onClick={() => setToggleMenu(false)} />
             </li>
-            {["Market", "Exchange", "Tutorials", "Wallets"].map(
+            {NAVBAR_LINKS.map(
               (item, index) => (
                 <NavBarItem
                   key={item + index}

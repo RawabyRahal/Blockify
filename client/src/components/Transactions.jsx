@@ -12,7 +12,6 @@ const TransactionCard = ({
   amount,
   url,
 }) => {
-
   const gifUrl = useFetch({ keyword });
 
   return (
@@ -60,7 +59,7 @@ const TransactionCard = ({
           alt="nature"
           className="w-full h-64 2xl:h-96 rounded-md shadow-lg object-cover"
         />
-        
+
         <div className="bg-black p-3 px-5 w-max rounded-3xl -mt-5 shadow-2xl">
           <p className="text-[#37c7da] font-bold">{timestamp}</p>
         </div>
@@ -70,14 +69,19 @@ const TransactionCard = ({
 };
 export default function Transactions() {
   const { currentAccount, transactions } = useContext(TransactionContext);
-    const sortedTransactions = transactions.slice().sort((a, b) => Number(b.timestamp) - Number(a.timestamp));
+  const sortedTransactions = transactions.sort((a, b) => {
+    const dateA = new Date(a.timestamp);
+    const dateB = new Date(b.timestamp);
+    return dateB - dateA;
+  });
 
+  console.log(sortedTransactions);
 
   return (
     <div className="flex w-full justify-center items-center 2xl:px-20 gradient-bg-transactions">
-      <div className="flex flex-col md:p-12 py-12 px-4">
+      <div className="flex flex-col md:p-20 py-25 px-4">
         {currentAccount ? (
-          <h3 className="text-white text-3xl text-center my-2">
+          <h3 className="text-white text-5xl text-center my-2 text-gradient">
             Latest Transactions
           </h3>
         ) : (
@@ -87,7 +91,7 @@ export default function Transactions() {
         )}
 
         <div className="flex flex-wrap justify-center items-center mt-10">
-          {transactions.reverse().map((transaction, index) => (
+          {sortedTransactions.map((transaction, index) => (
             <TransactionCard key={index} {...transaction} />
           ))}
         </div>
