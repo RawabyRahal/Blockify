@@ -12,12 +12,12 @@ export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <nav className="w-full flex md:justify-center justify-between items-center p-4">
-      <div className="md:flex-[0.5] flex-initial justify-center items-center">
-        <img src={logo} alt="logo" className="w-32 cursor-pointer" />
-      </div>
+    <nav className="w-full flex md:justify-start justify-between items-start px-10 p-5">
+      {/* <div className="md:flex-[0.5] flex-initial justify-center items-center"> */}
+        <img src={logo} alt="logo" className="w-32" />
+      {/* </div> */}
 
-      <ul className="text-white md:flex hidden list-none flex-row justify-between items-center flex-initial">
+      {/* <ul className="text-white md:flex hidden list-none flex-row justify-between items-center flex-initial">
         {["Market", "Exchange", "Tutorials", "Wallets"].map((item, index) => (
           <NavBarItem key={item + index} title={item} />
         ))}
@@ -61,7 +61,7 @@ export default function Navbar() {
             )}
           </ul>
         )}
-      </div>
+      </div> */}
     </nav>
   );
 }

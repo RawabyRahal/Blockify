@@ -8,7 +8,7 @@ export default function Footer() {
           <img src={logo} alt="logo" className="w-32" />
         </div>
 
-        <div className="flex flex-1 justify-evenly items-center flex-wrap sm:mt-0 mt-5 w-full">
+        {/* <div className="flex flex-1 justify-evenly items-center flex-wrap sm:mt-0 mt-5 w-full">
           <p className="text-white text-base text-center mx-2 cursor-pointer">
             Market
           </p>
@@ -21,7 +21,7 @@ export default function Footer() {
           <p className="text-white text-base text-center mx-2 cursor-pointer">
             Wallets
           </p>
-        </div>
+        </div> */}
       </div>
 
       <div className="flex justify-center items-center flex-col mt-5">
