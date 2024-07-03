@@ -113,6 +113,7 @@ export const TransactionProvider = ({ children }) => {
         method: "eth_requestAccounts",
       }); //gonna get all the accounts, and the user choose one to connect
       setCurrentAccount(accounts[0]);
+      window.location.reload();
     } catch (error) {
       console.log(error);
       throw new Error("No ethereum object.");
