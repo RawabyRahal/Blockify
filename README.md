@@ -52,3 +52,5 @@ A decentralized application (DApp) for sending and receiving Ethereum transactio
 - **[Tailwind CSS](https://tailwindcss.com/):** A utility-first CSS framework for rapidly building custom user interfaces.
 - **[Vite](https://vitejs.dev/):** A frontend build tool for fast development.
 
+
+### Explore Blockify and experience the future of decentralized finance!
