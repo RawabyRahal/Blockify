@@ -12,18 +12,22 @@ A decentralized application (DApp) for sending and receiving Ethereum transactio
 
 ## Installation
 1. Clone the repository:
+   
    ```bash
    git clone https://github.com/RawabyRahal/Blockify.git
    cd Blockify
-2. Install dependencies:
+3. Install dependencies:
+   
    ```bash
    npm install
 
-3. Start the development server:
+5. Start the development server:
+   
    ```bash
    npm run dev
    
-4. Build for production:
+7. Build for production:
+   
    ```bash
    npm run build
 
