@@ -40,9 +40,11 @@ A decentralized application (DApp) for sending and receiving Ethereum transactio
    - Once the transaction is confirmed, it will be displayed in the transaction history.
 
 
-### Technologies Used
-- React: Frontend library for building user interfaces.
-- ethers.js: Library for interacting with the Ethereum blockchain.
-- MetaMask: Ethereum wallet and browser extension.
-- Tailwind CSS: Utility-first CSS framework for styling.
-- Vite: Frontend build tool for fast development.
+## ⚙️ Technologies Used
+
+- **[React](https://reactjs.org/):** A JavaScript library for building user interfaces.
+- **[ethers.js](https://docs.ethers.io/v5/):** A JavaScript library for interacting with the Ethereum blockchain.
+- **[MetaMask](https://metamask.io/):** An Ethereum wallet and browser extension.
+- **[Tailwind CSS](https://tailwindcss.com/):** A utility-first CSS framework for rapidly building custom user interfaces.
+- **[Vite](https://vitejs.dev/):** A frontend build tool for fast development.
+
