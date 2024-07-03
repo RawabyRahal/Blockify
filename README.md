@@ -6,6 +6,6 @@ A decentralized application (DApp) for sending and receiving Ethereum transactio
 ### Features
 - Connect to MetaMask wallet
 - Send Ethereum transactions
-Display transaction history
-Fetch GIFs based on transaction keywords
-Responsive UI with modern design
+- Display transaction history
+- Fetch GIFs based on transaction keywords
+- Responsive UI with modern design
