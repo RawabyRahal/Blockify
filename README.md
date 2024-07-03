@@ -38,3 +38,11 @@ A decentralized application (DApp) for sending and receiving Ethereum transactio
 
 3. View Transactions:
    - Once the transaction is confirmed, it will be displayed in the transaction history.
+
+
+### Technologies Used
+- React: Frontend library for building user interfaces.
+- ethers.js: Library for interacting with the Ethereum blockchain.
+- MetaMask: Ethereum wallet and browser extension.
+- Tailwind CSS: Utility-first CSS framework for styling.
+- Vite: Frontend build tool for fast development.
