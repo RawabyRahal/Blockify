@@ -53,4 +53,5 @@ A decentralized application (DApp) for sending and receiving Ethereum transactio
 - **[Vite](https://vitejs.dev/):** A frontend build tool for fast development.
 
 <br>
+
 #### Explore Blockify and experience the future of decentralized finance! 🌐💰
