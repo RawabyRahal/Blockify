@@ -9,3 +9,12 @@ A decentralized application (DApp) for sending and receiving Ethereum transactio
 - Display transaction history
 - Fetch GIFs based on transaction keywords
 - Responsive UI with modern design
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/RawabyRahal/Blockify.git
+   cd Blockify
+2. Install dependencies:
+  ```bash
+   npm install
