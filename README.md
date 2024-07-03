@@ -33,8 +33,8 @@ A decentralized application (DApp) for sending and receiving Ethereum transactio
    - Select your MetaMask account to connect.
 
 2. Send Transaction:
-  - Fill in the form with the recipient's address, amount, keyword, and message.
-  - Click "Send now" to initiate the transaction.
+   - Fill in the form with the recipient's address, amount, keyword, and message.
+   - Click "Send now" to initiate the transaction.
 
 3. View Transactions:
-  - Once the transaction is confirmed, it will be displayed in the transaction history.
+   - Once the transaction is confirmed, it will be displayed in the transaction history.
