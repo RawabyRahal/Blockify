@@ -51,7 +51,6 @@ A decentralized application (DApp) for sending and receiving Ethereum transactio
 - **[MetaMask](https://metamask.io/):** An Ethereum wallet and browser extension.
 - **[Tailwind CSS](https://tailwindcss.com/):** A utility-first CSS framework for rapidly building custom user interfaces.
 - **[Vite](https://vitejs.dev/):** A frontend build tool for fast development.
-
 <br>
 
-#### Explore Blockify and experience the future of decentralized finance! 🌐💰
+### Explore Blockify and experience the future of decentralized finance! 🌐💰
