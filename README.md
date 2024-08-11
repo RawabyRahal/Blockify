@@ -31,7 +31,7 @@ A decentralized application (DApp) for sending and receiving Ethereum transactio
    ```bash
    npm run build
 
-## Usage
+### Usage
 1. Connect Wallet:
    - Click on the "Connect Wallet" button.
    - Select your MetaMask account to connect.
