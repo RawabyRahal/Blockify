@@ -10,7 +10,7 @@ A decentralized application (DApp) for sending and receiving Ethereum transactio
 - Fetch GIFs based on transaction keywords
 - Responsive UI with modern design
 
-### Installation 🛠️
+### 🛠️ Installation 
 1. Clone the repository:
    
    ```bash
