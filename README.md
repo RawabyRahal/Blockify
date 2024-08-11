@@ -44,7 +44,7 @@ A decentralized application (DApp) for sending and receiving Ethereum transactio
    - Once the transaction is confirmed, it will be displayed in the transaction history.
 
 
-## ⚙️ Technologies Used
+### ⚙️ Technologies Used
 
 - **[React](https://reactjs.org/):** A JavaScript library for building user interfaces.
 - **[ethers.js](https://docs.ethers.io/v5/):** A JavaScript library for interacting with the Ethereum blockchain.
