@@ -31,8 +31,6 @@ A decentralized application (DApp) for sending and receiving Ethereum transactio
    ```bash
    npm run build
 
-
-
 ### ⚙️ Technologies Used
 
 - **[React](https://reactjs.org/):** A JavaScript library for building user interfaces.
@@ -40,6 +38,19 @@ A decentralized application (DApp) for sending and receiving Ethereum transactio
 - **[MetaMask](https://metamask.io/):** An Ethereum wallet and browser extension.
 - **[Tailwind CSS](https://tailwindcss.com/):** A utility-first CSS framework for rapidly building custom user interfaces.
 - **[Vite](https://vitejs.dev/):** A frontend build tool for fast development.
+
+### Usage
+1. Connect Wallet:
+   - Click on the "Connect Wallet" button.
+   - Select your MetaMask account to connect.
+
+2. Send Transaction:
+   - Fill in the form with the recipient's address, amount, keyword, and message.
+   - Click "Send now" to initiate the transaction.
+
+3. View Transactions:
+   - Once the transaction is confirmed, it will be displayed in the transaction history.
+
 
 <br>
 
