@@ -43,6 +43,7 @@ A decentralized application (DApp) for sending and receiving Ethereum transactio
 3. View Transactions:
    - Once the transaction is confirmed, it will be displayed in the transaction history.
 
+
 ### ⚙️ Technologies Used
 
 - **[React](https://reactjs.org/):** A JavaScript library for building user interfaces.
